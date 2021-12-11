@@ -8,7 +8,7 @@
 
         <!-- Connection settings -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/ibrahim</property>   <!-- todo: degistir -->
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/ibrahim</property>
         <property name="hibernate.connection.username">ibrahim</property>
         <property name="hibernate.connection.password">Zhobada35.</property>
 

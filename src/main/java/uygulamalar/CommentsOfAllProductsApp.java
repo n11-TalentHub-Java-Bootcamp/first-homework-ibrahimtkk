@@ -1,6 +1,7 @@
 package uygulamalar;
 
 import dto.ProductCommentDto;
+import dto.UserCommentDto;
 import entity.Product;
 import entityservice.ProductCommentEntityService;
 import entityservice.ProductEntityService;
@@ -8,18 +9,14 @@ import entityservice.ProductEntityService;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class FirstHomeWorkApp {
+public class CommentsOfAllProductsApp {
 
     public static void main(String[] args) {
 
-        final List<ProductCommentDto> productCommentList = commensOfOneProduct(4L);
         final List<ProductCommentDto> productCommentDtoList = commentCountOfAllProducts();
     }
 
-    public static List<ProductCommentDto> commensOfOneProduct(Long productId) {
-        final ProductCommentEntityService service = new ProductCommentEntityService();
-        return service.findByProductId(productId);
-    }
+
 
     public static List<ProductCommentDto> commentCountOfAllProducts() {
         final ProductEntityService productEntityService = new ProductEntityService();
@@ -38,6 +35,7 @@ public class FirstHomeWorkApp {
                                     .build();
 
                         })
-                        .collect(Collectors.toList());
+                .collect(Collectors.toList());
     }
+
 }

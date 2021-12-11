@@ -1,6 +1,7 @@
 uygulamalar/FindBetweenApp.class
 dto/ProductCommentDto$ProductCommentDtoBuilder.class
 dao/ProductDao.class
+dto/UserCommentDto$UserCommentDtoBuilder.class
 dao/ProductCommentDao.class
 entityservice/ProductCommentEntityService.class
 dto/ProductCommentDto.class
@@ -9,10 +10,10 @@ uygulamalar/FirstHomeWorkApp.class
 uygulamalar/DtoApp.class
 entityservice/UserEntityService.class
 base/BaseDao.class
-dto/UrunDetayDto.class
 entity/User.class
 entity/Category.class
 dto/UserDto$UserDtoBuilder.class
+dto/ProductDetailDto.class
 uygulamalar/FindGeLeApp.class
 entity/ProductComment.class
 uygulamalar/FindByIdApp.class
@@ -22,3 +23,4 @@ dto/UserDto.class
 entity/Product.class
 entityservice/ProductEntityService.class
 uygulamalar/JoinApp.class
+dto/UserCommentDto.class

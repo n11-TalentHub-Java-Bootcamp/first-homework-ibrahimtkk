@@ -12,7 +12,17 @@ public class ProductCommentDao extends BaseDao {
         String sql = "select productComment from ProductComment productComment where productComment.productId =: productId";
 
         Query query = getCurrentSession().createQuery(sql);
-        query.setParameter("productId", String.valueOf(productId));
+        query.setParameter("productId", productId);
+
+
+        return query.list();
+    }
+
+    public List<ProductComment> findByUserId(Long userId) {
+        String sql = "select productComment from ProductComment productComment where productComment.userId =: userId";
+
+        Query query = getCurrentSession().createQuery(sql);
+        query.setParameter("userId", userId);
 
 
         return query.list();
