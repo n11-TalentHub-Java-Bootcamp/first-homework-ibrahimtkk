@@ -1,7 +1,7 @@
 package dao;
 
 import base.BaseDao;
-import dto.UrunDetayDto;
+import dto.ProductDetailDto;
 import entity.Product;
 import org.hibernate.query.Query;
 
@@ -75,10 +75,10 @@ public class ProductDao extends BaseDao {
         return query.list();
     }
 
-    public List<UrunDetayDto> findAllUrunDetayDtoByKategoriKirilim(Long kirilim) {
+    public List<ProductDetailDto> findAllUrunDetayDtoByKategoriKirilim(Long kirilim) {
 
         String sql = " select " +
-                " new dto.UrunDetayDto( urun.name, kategori.adi, urun.price ) " +
+                " new dto.ProductDetailDto( urun.name, kategori.adi, urun.price ) " +
                 " from Product urun " +
                 " left join Category kategori  on urun.kategori.id = kategori.id " +
                 " where kategori.kirilim = :kirilim ";

@@ -1,7 +1,7 @@
 package entityservice;
 
 import dao.ProductDao;
-import dto.UrunDetayDto;
+import dto.ProductDetailDto;
 import entity.Product;
 
 import java.math.BigDecimal;
@@ -35,7 +35,7 @@ public class ProductEntityService {
         return productDao.findAllUrunByKategoriKirilim(kirilim);
     }
 
-    public List<UrunDetayDto> findAllUrunDetayDtoByKategoriKirilim(Long kirilim) {
+    public List<ProductDetailDto> findAllUrunDetayDtoByKategoriKirilim(Long kirilim) {
         return productDao.findAllUrunDetayDtoByKategoriKirilim(kirilim);
     }
 

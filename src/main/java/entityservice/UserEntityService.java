@@ -15,6 +15,7 @@ public class UserEntityService {
     public UserDto findById(Long id){
         final User user = userDao.findById(id);
         return UserDto.builder()
+                .id(user.getId())
                 .name(user.getName())
                 .surname(user.getSurname())
                 .email(user.getEmail())

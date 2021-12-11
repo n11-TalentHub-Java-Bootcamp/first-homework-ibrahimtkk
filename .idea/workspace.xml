@@ -23,14 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8168977e-3c45-4c06-9001-5cb2a4cadb36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/UserCommentDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/ProductCommentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductCommentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductCommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductCommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/UrunDetayDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ProductDetailDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/ProductComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/ProductComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entityservice/ProductCommentEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entityservice/ProductCommentEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entityservice/ProductEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entityservice/ProductEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entityservice/UserEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entityservice/UserEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uygulamalar/DtoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uygulamalar/DtoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uygulamalar/FirstHomeWorkApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uygulamalar/FirstHomeWorkApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/ProductCommentDto$ProductCommentDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/ProductCommentDto$ProductCommentDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/ProductCommentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/ProductCommentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ProductCommentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProductCommentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/UrunDetayDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entity/ProductComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/ProductComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entityservice/ProductCommentEntityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entityservice/ProductCommentEntityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entityservice/ProductEntityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entityservice/ProductEntityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entityservice/UserEntityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entityservice/UserEntityService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uygulamalar/DtoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uygulamalar/DtoApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/uygulamalar/FirstHomeWorkApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uygulamalar/FirstHomeWorkApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +74,7 @@
     </option>
   </component>
   <component name="ProjectId" id="228TaLsGay39eTWaxfdvdH4w2hr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,7 +103,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstHomeWorkApp">
+  <component name="RunManager" selected="Application.CommentsOfAllProductsApp">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="first-homework-ibrahimtkk" />
@@ -91,8 +111,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstHomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uygulamalar.FirstHomeWorkApp" />
+    <configuration name="CommentsOfAllProductsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uygulamalar.CommentsOfAllProductsApp" />
+      <module name="first-homework-ibrahimtkk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uygulamalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentsOfOneProductApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uygulamalar.CommentsOfOneProductApp" />
+      <module name="first-homework-ibrahimtkk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uygulamalar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentsOfOneUserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uygulamalar.CommentsOfOneUserApp" />
       <module name="first-homework-ibrahimtkk" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +163,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstHomeWorkApp" />
+        <item itemvalue="Application.CommentsOfAllProductsApp" />
+        <item itemvalue="Application.CommentsOfOneProductApp" />
+        <item itemvalue="Application.CommentsOfOneUserApp" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -130,7 +178,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639218279258</updated>
-      <workItem from="1639218280571" duration="17482000" />
+      <workItem from="1639218280571" duration="19147000" />
+      <workItem from="1639255431063" duration="40000" />
+      <workItem from="1639255477803" duration="189000" />
+      <workItem from="1639255673999" duration="55000" />
+      <workItem from="1639255743286" duration="489000" />
     </task>
     <servers />
   </component>
@@ -147,6 +199,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="83" y="286" key="#SQL_Dialects" timestamp="1639248548715">
@@ -165,80 +218,81 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1639231794057" />
-    <state x="301" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639225038939">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="301" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1639225038939" />
-    <state x="2013" y="296" width="1157" height="579" key="#xdebugger.evaluate" timestamp="1639253721496">
+    <state x="1841" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1639254170523">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2013" y="296" width="1157" height="579" key="#xdebugger.evaluate/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253721496" />
-    <state width="1878" height="374" key="GridCell.Tab.0.bottom" timestamp="1639253699413">
+    <state x="1841" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639254170523" />
+    <state x="301" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1639225038939" />
+    <state x="2013" y="296" width="1157" height="579" key="#xdebugger.evaluate" timestamp="1639256027769">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2013" y="296" width="1157" height="579" key="#xdebugger.evaluate/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256027769" />
+    <state width="1878" height="258" key="GridCell.Tab.0.bottom" timestamp="1639256012492">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="699" height="336" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1639248558019" />
-    <state width="1878" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253699413" />
+    <state width="1878" height="258" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256012492" />
     <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1639232913567" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1639232375131" />
-    <state width="1878" height="374" key="GridCell.Tab.0.center" timestamp="1639253699411">
+    <state width="1878" height="258" key="GridCell.Tab.0.center" timestamp="1639256012490">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="699" height="336" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1639248558015" />
-    <state width="1878" height="374" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253699411" />
+    <state width="1878" height="258" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256012490" />
     <state width="1398" height="317" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1639232913566" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1639232375124" />
-    <state width="1878" height="374" key="GridCell.Tab.0.left" timestamp="1639253699410">
+    <state width="1878" height="258" key="GridCell.Tab.0.left" timestamp="1639256012489">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="699" height="336" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1639248558013" />
-    <state width="1878" height="374" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253699410" />
+    <state width="1878" height="258" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256012489" />
     <state width="1398" height="317" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1639232913565" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1639232375123" />
-    <state width="1878" height="374" key="GridCell.Tab.0.right" timestamp="1639253699412">
+    <state width="1878" height="258" key="GridCell.Tab.0.right" timestamp="1639256012491">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state width="699" height="336" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1639248558017" />
-    <state width="1878" height="374" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253699412" />
+    <state width="1878" height="258" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256012491" />
     <state width="1398" height="317" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1639232913566" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1639232375125" />
-    <state width="1878" height="374" key="GridCell.Tab.1.bottom" timestamp="1639253701697">
+    <state width="1878" height="258" key="GridCell.Tab.1.bottom" timestamp="1639256014590">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253701697" />
+    <state width="1878" height="258" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256014590" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1639232167509" />
     <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.23.1440.830/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639250026714" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.830@0.23.1440.830" timestamp="1639232375134" />
-    <state width="1878" height="374" key="GridCell.Tab.1.center" timestamp="1639253701695">
+    <state width="1878" height="258" key="GridCell.Tab.1.center" timestamp="1639256014589">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="374" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253701695" />
+    <state width="1878" height="258" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256014589" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1639232167507" />
     <state width="1878" height="374" key="GridCell.Tab.1.center/0.23.1440.830/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639250026712" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.830@0.23.1440.830" timestamp="1639232375132" />
-    <state width="1878" height="374" key="GridCell.Tab.1.left" timestamp="1639253701695">
+    <state width="1878" height="258" key="GridCell.Tab.1.left" timestamp="1639256014588">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="374" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253701695" />
+    <state width="1878" height="258" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256014588" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1639232167506" />
     <state width="1878" height="374" key="GridCell.Tab.1.left/0.23.1440.830/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639250026712" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.830@0.23.1440.830" timestamp="1639232375132" />
-    <state width="1878" height="374" key="GridCell.Tab.1.right" timestamp="1639253701696">
+    <state width="1878" height="258" key="GridCell.Tab.1.right" timestamp="1639256014589">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="374" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253701696" />
+    <state width="1878" height="258" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639256014589" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1639232167508" />
     <state width="1878" height="374" key="GridCell.Tab.1.right/0.23.1440.830/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639250026713" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.830@0.23.1440.830" timestamp="1639232375133" />
-    <state x="1717" y="37" key="SettingsEditor" timestamp="1639251495171">
+    <state x="1717" y="37" key="SettingsEditor" timestamp="1639255488360">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1717" y="37" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639251495171" />
+    <state x="1717" y="37" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639255488360" />
     <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1639221874664" />
-    <state x="2001" y="246" width="798" height="735" key="find.popup" timestamp="1639251740426">
+    <state x="2001" y="246" width="798" height="735" key="find.popup" timestamp="1639253927267">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1639247714425" />
-    <state x="2001" y="246" width="798" height="735" key="find.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639251740426" />
+    <state x="2001" y="246" width="798" height="735" key="find.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1639253927267" />
     <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1639232549835" />
     <state x="88" y="113" key="new project wizard" timestamp="1639221110209">
       <screen x="0" y="0" width="1440" height="900" />
@@ -254,16 +308,16 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/entityservice/ProductCommentEntityService.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/uygulamalar/FirstHomeWorkApp.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="20" />
+          <line>47</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/first_homework_ibrahimtkk$FirstHomeWorkApp.ic" NAME="FirstHomeWorkApp Coverage Results" MODIFIED="1639255350443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uygulamalar.*</FILTER>
+    </SUITE>
   </component>
 </project>

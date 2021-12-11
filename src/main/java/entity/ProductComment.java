@@ -23,7 +23,7 @@ public class ProductComment {
     private Date commentDate;
 
     @Column(name = "URUN_ID", nullable = false, length = 50)
-    private String productId;
+    private Long productId;
 
     @Column(name = "KULLANICI_ID", nullable = false, length = 15)
     private Long userId;
