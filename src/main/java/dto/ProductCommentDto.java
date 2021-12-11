@@ -17,5 +17,7 @@ public class ProductCommentDto {
     private UserDto user;
     private String comment;
     private Date commentDate;
+    private Integer commentCount;
+    private Long productId;
 
 }
